@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.asmet.cbt" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>ASMET CBT ACADEMYC</name>
+    <description>Plataforma de Matemáticas Adaptativa</description>
+    <author email="support@asmet.com" href="https://asmet.com">ASMET Team</author>
+    
+    <content src="index.html" />
+    
+    <preference name="phonegap-version" value="cli-10.0.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="targetSdkVersion" value="33" />
+    <preference name="android-minSdkVersion" value="22" />
+    
+    <!-- Icono básico (opcional) -->
+    <icon src="icon.png" />
+    
+    <!-- Plugins necesarios -->
+    <plugin name="cordova-plugin-whitelist" spec="1.3.4" />
+    <plugin name="cordova-plugin-file" spec="^7.0.0" />
+    
+    <!-- Permisos -->
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
